@@ -1,0 +1,22 @@
+{
+    "name": "smallNN",
+    "initWeightFactor" : 0.1,
+    "layers"           : [
+        
+        {   "name"         : "input",
+            "nUnits"       : 5,
+            "activation"   : null },
+
+        {   "name"         : "inner1",
+            "nUnits"       : 5,
+            "activation"   : "relu" },
+
+        {   "name"         : "inner2",
+            "nUnits"       : 8,
+            "activation"   : "tanh" },
+
+        {   "name"         : "output",
+            "nUnits"       : 5,
+            "activation"   : "relu" }
+    ]
+}
